@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a83b432d-e211-4172-9f35-1f0296a5cfcc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="e6d44830-5d91-4ee0-98f9-e1e3585655d4" />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ID207038_webshopitr.db.webhosting.be" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+    <fileColor scope="Non-Project Files (Material Oceanic)" color="2E3C43" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2.14" />
+  <component name="ProjectId" id="1NE74D875IAgTKS3FRYYplazhHg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php" />
+    <property name="javascript.nodejs.core.library.configured.version" value="13.8.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="13.13.21" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="options.lastSelected" value="web.server" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Console" />
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Facade" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.ArtisanCommandTest.test_versbox_clear_artisan_command">
+    <configuration name="Versbox.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/versbox/Versbox.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ArtisanCommandTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner class="JuniorE\Versbox\Tests\ArtisanCommandTest" file="$PROJECT_DIR$/tests/ArtisanCommandTest.php" method="test_versbox_clear_artisan_command" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ArtisanCommandTest.test_versbox_clear_artisan_command" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="JuniorE\Versbox\Tests\ArtisanCommandTest" file="$PROJECT_DIR$/tests/ArtisanCommandTest.php" method="test_versbox_clear_artisan_command" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ArtisanCommandTest.true_is_true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="JuniorE\Versbox\Tests\ArtisanCommandTest" file="$PROJECT_DIR$/tests/ArtisanCommandTest.php" method="true_is_true" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ExampleTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner class="JuniorE\Versbox\Tests\ExampleTest" file="$PROJECT_DIR$/tests/ExampleTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml.dist" directory="$PROJECT_DIR$/src" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Versbox.php" />
+      <item itemvalue="PHPUnit.ArtisanCommandTest" />
+      <item itemvalue="PHPUnit.ExampleTest" />
+      <item itemvalue="PHPUnit.phpunit.xml.dist" />
+      <item itemvalue="PHPUnit.ArtisanCommandTest.test_versbox_clear_artisan_command" />
+      <item itemvalue="PHPUnit.ArtisanCommandTest.true_is_true" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.ArtisanCommandTest.test_versbox_clear_artisan_command" />
+        <item itemvalue="PHPUnit.ArtisanCommandTest.true_is_true" />
+        <item itemvalue="JavaScript Debug.Versbox.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a83b432d-e211-4172-9f35-1f0296a5cfcc" name="Default Changelist" comment="" />
+      <created>1552306839312</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552306839312</updated>
+      <workItem from="1552306840411" duration="5401000" />
+      <workItem from="1552315047146" duration="14298000" />
+      <workItem from="1552376314345" duration="54000" />
+      <workItem from="1552376861643" duration="17119000" />
+      <workItem from="1552405962554" duration="6570000" />
+      <workItem from="1552419495956" duration="5305000" />
+      <workItem from="1552462972025" duration="434000" />
+      <workItem from="1556006225567" duration="454000" />
+      <workItem from="1556013595124" duration="6347000" />
+      <workItem from="1556027252417" duration="121000" />
+      <workItem from="1556030693683" duration="46000" />
+      <workItem from="1556277463182" duration="4511000" />
+      <workItem from="1556291114761" duration="563000" />
+      <workItem from="1558541358413" duration="123000" />
+      <workItem from="1561634209999" duration="134000" />
+      <workItem from="1569080268173" duration="1172000" />
+      <workItem from="1569081804260" duration="188000" />
+      <workItem from="1569092956735" duration="1525000" />
+      <workItem from="1569099214190" duration="124000" />
+      <workItem from="1569231151160" duration="1181000" />
+      <workItem from="1569233114844" duration="150000" />
+      <workItem from="1600434298535" duration="606000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="phpunit_xml_dist - 2019.03.12 at 09h 00m 30s.xml">
+      <configuration name="phpunit.xml.dist" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="phpunit_xml_dist - 2019.03.12 at 09h 06m 57s.xml">
+      <configuration name="phpunit.xml.dist" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="phpunit_xml_dist - 2019.03.12 at 09h 07m 33s.xml">
+      <configuration name="phpunit.xml.dist" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ExampleTest - 2019.03.12 at 09h 08m 26s.xml">
+      <configuration name="ExampleTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ArtisanCommandTest_true_is_true - 2019.03.12 at 18h 46m 59s.xml">
+      <configuration name="ArtisanCommandTest.true_is_true" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ArtisanCommandTest_true_is_true - 2019.03.12 at 18h 47m 17s.xml">
+      <configuration name="ArtisanCommandTest.true_is_true" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ArtisanCommandTest_test_versbox_clear_artisan_command - 2019.03.13 at 00h 03m 32s.xml">
+      <configuration name="ArtisanCommandTest.test_versbox_clear_artisan_command" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ArtisanCommandTest_test_versbox_clear_artisan_command - 2019.03.13 at 00h 04m 46s.xml">
+      <configuration name="ArtisanCommandTest.test_versbox_clear_artisan_command" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
