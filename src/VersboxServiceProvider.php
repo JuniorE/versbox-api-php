@@ -54,7 +54,7 @@ class VersboxServiceProvider extends ServiceProvider
 
         // Register the main class to use with the facade
         $this->app->singleton('versbox', function () {
-            return new Versbox;
+            return new VersboxApiClient;
         });
     }
 }

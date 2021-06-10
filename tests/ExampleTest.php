@@ -1,9 +1,9 @@
 <?php
 
-namespace JuniorE\Versbox\Tests;
+namespace JuniorE\Versbox\Endpoints\Tests;
 
 use Orchestra\Testbench\TestCase;
-use JuniorE\Versbox\VersboxServiceProvider;
+use JuniorE\Versbox\Endpoints\VersboxServiceProvider;
 
 class ExampleTest extends TestCase
 {
@@ -12,7 +12,7 @@ class ExampleTest extends TestCase
     {
         return [VersboxServiceProvider::class];
     }
-    
+
     /** @test */
     public function true_is_true()
     {

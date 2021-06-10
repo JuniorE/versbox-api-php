@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a83b432d-e211-4172-9f35-1f0296a5cfcc" name="Default Changelist" comment="" />
+    <list default="true" id="a83b432d-e211-4172-9f35-1f0296a5cfcc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Endpoints/CustomerEndpoint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Endpoints/ReservationEndpoint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Endpoints/ShopEndpoint.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/ApiException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/Customer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/CustomerCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/Reservation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resources/ReservationCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VersboxApiClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Endpoints/BaseEndpointTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Endpoints/CustomerEndpointTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Endpoints/ShopEndpointTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Versbox.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VersboxServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/VersboxServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ExampleTest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +32,7 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
-      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="e6d44830-5d91-4ee0-98f9-e1e3585655d4" />
+      <executable path="composer" />
     </execution>
   </component>
   <component name="DatabaseView">
@@ -43,7 +65,102 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2.14" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4.12">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/orchestra/testbench" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/orchestra/testbench-core" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1NE74D875IAgTKS3FRYYplazhHg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,12 +169,12 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="javascript.nodejs.core.library.configured.version" value="13.8.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="13.13.21" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Endpoints" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,12 +187,15 @@
     <property name="options.lastSelected" value="web.server" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Endpoints" />
+      <recent name="$PROJECT_DIR$/src/Resources" />
       <recent name="$PROJECT_DIR$/src/Console" />
       <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/src" />
@@ -86,7 +206,7 @@
       <recent name="$PROJECT_DIR$/src/Facade" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.ArtisanCommandTest.test_versbox_clear_artisan_command">
+  <component name="RunManager" selected="PHPUnit.ShopEndpointTest.test_get_all_shops">
     <configuration name="Versbox.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/versbox/Versbox.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -102,8 +222,21 @@
       <TestRunner class="JuniorE\Versbox\Tests\ArtisanCommandTest" file="$PROJECT_DIR$/tests/ArtisanCommandTest.php" method="true_is_true" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration name="CustomerEndpointTest.testCreate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="JuniorE\Versbox\Tests\Endpoints\CustomerEndpointTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/Endpoints/CustomerEndpointTest.php" method="testCreate" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="ExampleTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner class="JuniorE\Versbox\Tests\ExampleTest" file="$PROJECT_DIR$/tests/ExampleTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ShopEndpointTest.test_get_all_shops" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.4.12" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner class="JuniorE\Versbox\Tests\Endpoints\ShopEndpointTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/Endpoints/ShopEndpointTest.php" method="test_get_all_shops" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -117,9 +250,13 @@
       <item itemvalue="PHPUnit.phpunit.xml.dist" />
       <item itemvalue="PHPUnit.ArtisanCommandTest.test_versbox_clear_artisan_command" />
       <item itemvalue="PHPUnit.ArtisanCommandTest.true_is_true" />
+      <item itemvalue="PHPUnit.CustomerEndpointTest.testCreate" />
+      <item itemvalue="PHPUnit.ShopEndpointTest.test_get_all_shops" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ShopEndpointTest.test_get_all_shops" />
+        <item itemvalue="PHPUnit.CustomerEndpointTest.testCreate" />
         <item itemvalue="PHPUnit.ArtisanCommandTest.test_versbox_clear_artisan_command" />
         <item itemvalue="PHPUnit.ArtisanCommandTest.true_is_true" />
         <item itemvalue="JavaScript Debug.Versbox.php" />
@@ -158,35 +295,15 @@
       <workItem from="1569099214190" duration="124000" />
       <workItem from="1569231151160" duration="1181000" />
       <workItem from="1569233114844" duration="150000" />
-      <workItem from="1600434298535" duration="606000" />
+      <workItem from="1600434298535" duration="4729000" />
+      <workItem from="1600525140705" duration="59000" />
+      <workItem from="1600525212893" duration="2172000" />
+      <workItem from="1600758517804" duration="5767000" />
+      <workItem from="1600844284791" duration="3059000" />
+      <workItem from="1600854261957" duration="746000" />
+      <workItem from="1623322758751" duration="4094000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="phpunit_xml_dist - 2019.03.12 at 09h 00m 30s.xml">
-      <configuration name="phpunit.xml.dist" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="phpunit_xml_dist - 2019.03.12 at 09h 06m 57s.xml">
-      <configuration name="phpunit.xml.dist" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="phpunit_xml_dist - 2019.03.12 at 09h 07m 33s.xml">
-      <configuration name="phpunit.xml.dist" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ExampleTest - 2019.03.12 at 09h 08m 26s.xml">
-      <configuration name="ExampleTest" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ArtisanCommandTest_true_is_true - 2019.03.12 at 18h 46m 59s.xml">
-      <configuration name="ArtisanCommandTest.true_is_true" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ArtisanCommandTest_true_is_true - 2019.03.12 at 18h 47m 17s.xml">
-      <configuration name="ArtisanCommandTest.true_is_true" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ArtisanCommandTest_test_versbox_clear_artisan_command - 2019.03.13 at 00h 03m 32s.xml">
-      <configuration name="ArtisanCommandTest.test_versbox_clear_artisan_command" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ArtisanCommandTest_test_versbox_clear_artisan_command - 2019.03.13 at 00h 04m 46s.xml">
-      <configuration name="ArtisanCommandTest.test_versbox_clear_artisan_command" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
